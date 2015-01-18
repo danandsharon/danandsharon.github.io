@@ -1,0 +1,13 @@
+body {
+  background-image: url('images/kissing_blurred.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #222;
+}
+h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font: 200px/100px 'Pinyon Script', script;
+  width: 300px;
+}
