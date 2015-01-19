@@ -1,5 +1,5 @@
 body {
-  background-image: url('images/kissing_blurred.jpg');
+  background-image: url('images/P00560_1185.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7,7 +7,18 @@ body {
   color: #222;
 }
 h1 {
-  color: rgba(255, 255, 255, 0.8);
-  font: 200px/100px 'Pinyon Script', script;
+  color: rgba(0, 0, 0, 0.7);
+  font: 120px/75px 'Alex Brush', script;
   width: 300px;
+  text-align: center;
+}
+.intro {
+  height: 100%;
+  position: relative;
+}
+.header {
+  position: absolute;
+  left: 50px;
+  bottom: 40px;
+  width: 500px;
 }
