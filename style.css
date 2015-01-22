@@ -1,9 +1,5 @@
 body {
-  background-image: url('images/P00560_1185.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
+  margin: 0;
   color: rgb(255, 255, 255);
 }
 h1 {
@@ -15,15 +11,43 @@ h1 {
 }
 h3 {
   text-transform: uppercase;
-  font: 18px/18px 'Halant', serif;
-  font-weight: 300;
+  font: 16px/18px 'Halant', serif;
   letter-spacing: 2px;
   text-align: center;
   margin: 5px;
 }
-.intro {
-  height: 100%;
-  position: relative;
+#intro {
+  background-image: url('images/P00560_1185.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#rsvp {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  margin-top: 30px;
+  font: 20px/20px 'Halant', serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  color: rgb(255, 255, 255);
+  padding: 15px 20px;
+  cursor: pointer;
+}
+#venue {
+  background-image: url('images/P00560_1187.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#end {
+  background-image: url('images/P00560_1214.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 .main-sidebar {
   position: absolute;
@@ -36,14 +60,12 @@ h3 {
   background-color: rgba(53, 36, 49, 0.25);
   text-align: center;
 }
-#rsvp {
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  text-transform: uppercase;
-  margin-top: 40px;
-  font: 14px/14px 'Halant', serif;
-  letter-spacing: 2px;
-  color: rgb(255, 255, 255);
-  padding: 15px 20px;
-  cursor: pointer;
+@media all and (max-width: 800px) {
+  #intro {
+    background-position: right;
+  }
+  .main-sidebar {
+    left: 50%;
+    margin-left: -250px;
+  }
 }
