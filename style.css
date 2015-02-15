@@ -81,14 +81,16 @@ h3 {
 }
 .left {
   text-align: left;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
   margin-bottom: 100px;
   float: left;
-  width: 45%;
+  width: 35%;
 }
 .right {
   text-align: left;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-right: -40px;
   float: right;
   width: 45%;
 }
