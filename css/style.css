@@ -181,9 +181,12 @@ p:first-child {
 }
 #images {
   position: relative;
+  top: 48px;
+  margin: 0;
+  text-align: center;
 }
 #images img {
-  width: 49%;
+  width: 33%;
   margin: 0;
 }
 
