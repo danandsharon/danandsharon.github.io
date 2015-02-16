@@ -211,19 +211,19 @@ p:first-child {
   bottom: 0;
 }
 #intro {
-  background-image: url('images/P00560_1186.jpg');
+  background-image: url('../images/P00560_1186.jpg');
 }
 #intro:before {
   background-color: rgba(0, 0, 0, 0.1);
 }
 #venue {
-  background-image: url('images/gihc-edited.jpg');
+  background-image: url('../images/gihc-edited.jpg');
 }
 #venue:before {
   background-color: rgba(0, 0, 0, 0.2);
 }
 #party {
-  background-image: url('images/toast2.jpg');
+  background-image: url('../images/toast2.jpg');
   background-color: #726076;
   background-position: top;
 }
@@ -231,7 +231,7 @@ p:first-child {
   background-color: rgba(0, 0, 0, 0.6);
 }
 #registry {
-  background-image: url('images/bali.jpg');
+  background-image: url('../images/bali.jpg');
 }
 #registry:before {
   background-color: rgba(0, 0, 0, 0.35);
