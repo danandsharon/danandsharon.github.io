@@ -179,6 +179,13 @@ p:first-child {
   font: 20px/26px 'Halant', serif;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
+#images {
+  position: relative;
+}
+#images img {
+  width: 49%;
+  margin: 0;
+}
 
 
 /************************ BGS ************************/
@@ -213,11 +220,12 @@ p:first-child {
   background-color: rgba(0, 0, 0, 0.2);
 }
 #party {
-  background-image: url('images/toast.jpg');
+  background-image: url('images/toast2.jpg');
   background-color: #726076;
+  background-position: top;
 }
 #party:before {
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 #registry {
   background-image: url('images/bali.jpg');
