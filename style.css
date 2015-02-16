@@ -55,7 +55,8 @@ h2 {
   margin-left: -25px;
 }
 .party-header {
-  font-size: 70px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 72px;
   line-height: 72px;
   margin-bottom: 20px;
 }
@@ -171,6 +172,12 @@ p:first-child {
 .partier-name .nickname {
   font-size: 11px;
 }
+.registry-text {
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 300px;
+  font: 20px/26px 'Halant', serif;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
 
 /************************ BGS ************************/
 .full-bg {
@@ -206,23 +213,32 @@ p:first-child {
 #party {
   background-color: #726076;
 }
-
+#registry {
+  background-image: url('images/bali.jpg');
+}
+#registry:before {
+  background-color: rgba(0, 0, 0, 0.35);
+}
 
 
 /************************ BTNS ************************/
-.rsvp {
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.8);
+button {
+  display: block;
+  background: rgba(255, 255, 255, 0.8);
+  border: 0;
   text-transform: uppercase;
-  margin-top: 30px;
-  font: 20px/20px 'Halant', serif;
+  margin: 30px auto 20px;
+  font: 18px/18px 'Halant', serif;
   font-weight: 300;
   letter-spacing: 3px;
-  color: rgb(255, 255, 255);
-  padding: 15px 20px;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 15px 25px;
   cursor: pointer;
 }
-
+button:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+}
 
 /************************ RESPONSIVE ************************/
 @media all and (max-width: 800px) {
