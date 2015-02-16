@@ -55,7 +55,7 @@ h2 {
   margin-left: -25px;
 }
 .party-header {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 72px;
   line-height: 72px;
   margin-bottom: 20px;
@@ -153,6 +153,7 @@ p:first-child {
   height: 100px;
   overflow: hidden;
   border-radius: 100%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 .partier img {
   width: 100px;
@@ -178,6 +179,7 @@ p:first-child {
   font: 20px/26px 'Halant', serif;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
+
 
 /************************ BGS ************************/
 .full-bg {
@@ -211,7 +213,11 @@ p:first-child {
   background-color: rgba(0, 0, 0, 0.2);
 }
 #party {
+  background-image: url('images/toast.jpg');
   background-color: #726076;
+}
+#party:before {
+  background-color: rgba(0, 0, 0, 0.45);
 }
 #registry {
   background-image: url('images/bali.jpg');
@@ -233,12 +239,9 @@ button {
   letter-spacing: 3px;
   color: rgba(0, 0, 0, 0.8);
   padding: 15px 25px;
-  cursor: pointer;
+  pointer-events: none;
 }
-button:hover {
-  background-color: rgba(0, 0, 0, 0.6);
-  color: rgba(255, 255, 255, 0.6);
-}
+
 
 /************************ RESPONSIVE ************************/
 @media all and (max-width: 800px) {
