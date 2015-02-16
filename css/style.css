@@ -185,8 +185,16 @@ p:first-child {
   margin: 0;
   text-align: center;
 }
-#images img {
+#images .img-wrapper {
+  display: inline-block;
   width: 33%;
+  margin: 0;
+  height: 316px;
+  overflow: hidden;
+
+}
+#images img {
+  width: 100%;
   margin: 0;
 }
 
