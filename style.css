@@ -211,11 +211,7 @@ p:first-child {
   background-color: rgba(0, 0, 0, 0.2);
 }
 #party {
-  background-image: url('images/balloons2.jpg');
   background-color: #726076;
-}
-#party:before {
-  background-color: rgba(18, 10, 26, 0.2);
 }
 #registry {
   background-image: url('images/bali.jpg');
