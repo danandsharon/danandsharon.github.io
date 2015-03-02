@@ -113,6 +113,7 @@ hr + .party-header {
   width: 320px;
   display: inline-block;
   box-sizing: border-box;
+  overflow: auto;
 }
 .half:first-child {
   padding-right: 10px;
@@ -129,6 +130,13 @@ p {
 }
 p:first-child {
   margin-top: 0;
+}
+.full {
+  clear: both;
+  text-align: left;
+}
+.full > .no-transform {
+  text-transform: none;
 }
 .schedule {
   color: rgba(255, 255, 255, 0.85);
@@ -228,7 +236,7 @@ p:first-child {
   background-image: url('../images/gihc-edited.jpg');
 }
 #venue:before {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 #party {
   background-image: url('../images/toast2.jpg');
