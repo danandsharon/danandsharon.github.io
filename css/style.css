@@ -60,7 +60,8 @@ h2 {
   line-height: 72px;
   margin-bottom: 20px;
 }
-h3 {
+h3,
+.countdown {
   color: rgba(0, 0, 0, 0.65);
   text-transform: uppercase;
   font: 14px/14px 'Halant', serif;
@@ -79,6 +80,16 @@ hr + .party-header {
 
 
 /************************ CONTENT ************************/
+.countdown {
+  padding-top: 15px;
+}
+.countdown:before {
+  content: "";
+  display: inline-block;
+  border-top: 1px solid rgba(0, 0, 0, 0.45);
+  width: 50px;
+  padding-bottom: 15px;
+}
 .main {
   position: relative;
 }
@@ -137,6 +148,9 @@ p:first-child {
 }
 .full > .no-transform {
   text-transform: none;
+}
+.lodging{
+  padding-bottom: 80px;
 }
 .schedule {
   color: rgba(255, 255, 255, 0.85);
@@ -234,9 +248,12 @@ p:first-child {
 }
 #venue {
   background-image: url('../images/gihc-edited.jpg');
+  position: fixed;
+  overflow: auto;
 }
 #venue:before {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.65);
+  position: fixed;
 }
 #party {
   background-image: url('../images/toast2.jpg');
