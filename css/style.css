@@ -104,6 +104,9 @@ hr + .party-header {
   background-color: rgba(255, 255, 255, 0.8);
   overflow: auto;
 }
+.floatWrapper {
+  overflow: auto;
+}
 .left {
   text-align: left;
   margin-top: 10px;
@@ -180,6 +183,39 @@ p:first-child {
 .partier img {
   width: 100px;
 }
+.party-parents {
+  overflow: hidden;
+}
+.party-parents .left,
+.party-parents .right {
+  width: 48%;
+  text-align: center;
+  margin: 0;
+}
+.party-parents .party-header {
+  font-size: 36px;
+  line-height: 36px;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+.party-parents .partier-wrapper {
+  width: 250px;
+}
+.party-parents .partier {
+  width: 250px;
+  height: 250px;
+}
+.party-parents img {
+  width: 500px;
+}
+img.gro {
+  margin-top: -100px;
+  margin-left: -105px;
+}
+img.bri {
+  margin-left: -40px;
+  margin-top: -80px;
+}
 .partier-name {
   color: rgba(255, 255, 255, 0.8);
   text-transform: uppercase;
@@ -219,6 +255,9 @@ p:first-child {
   width: 100%;
   margin-top: -20px;
 }
+.rotate-90 {
+  transform: rotate(90deg);
+}
 
 
 /************************ BGS ************************/
@@ -257,11 +296,15 @@ p:first-child {
 }
 #party {
   background-image: url('../images/toast2.jpg');
-  background-color: #726076;
-  background-position: top;
+  position: fixed;
+  overflow: auto;
 }
 #party:before {
   background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+}
+#party .content {
+  padding-bottom: 80px;
 }
 #registry {
   background-image: url('../images/bali.jpg');
