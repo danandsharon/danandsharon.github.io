@@ -213,8 +213,8 @@ img.gro {
   margin-left: -105px;
 }
 img.bri {
-  margin-left: -40px;
-  margin-top: -80px;
+  margin-left: -100px;
+  margin-top: -75px;
 }
 .partier-name {
   color: rgba(255, 255, 255, 0.8);
@@ -254,9 +254,6 @@ img.bri {
 #images img {
   width: 100%;
   margin-top: -20px;
-}
-.rotate-90 {
-  transform: rotate(90deg);
 }
 
 
